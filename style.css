@@ -1,0 +1,44 @@
+*{
+    background-color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem
+}
+
+.link-container{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    a {text-decoration: none;color: white; }
+    
+}
+.hero-text{
+    color: white;
+    h1{font-size: 5.3rem;font-weight: 700;}
+    
+
+}
+.hero-p{
+    
+}
+.span{
+    color:#ee0000;
+}
+.hero-container{
+    display: flex;
+    margin: 4rem;
+    justify-content: space-between;
+}
+.imag-container{
+    width: 40rem;
+    height: 50rem;
+}

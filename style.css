@@ -1,44 +1,77 @@
 *{
-    background-color: rgb(0, 0, 0);
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin: 0;
+    padding: 0;
   
 }
-
-
-header{
+.header-main{
+    background-color: #000000;
+}
+.header-container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 4rem
+    padding: 4rem;
+    background-color: #000000;
+    
+}
+.logo-container{
+    margin-left: 11rem;
 }
 
 .link-container{
     display: flex;
     gap: 2rem;
+    margin-right: 15rem;
     justify-content: space-between;
-    a {text-decoration: none;color: white; }
-    
 }
+.link-container a {
+    text-decoration: none;
+    color: white;
+}
+.hero-h1 span{ color: #FFBB00;
+    margin: 0;}
+
 .hero-text{
     color: white;
-    h1{font-size: 5.3rem;font-weight: 700;}
-    
-
+}
+.hero-text h1{
+    font-size: 4.5rem;
+    font-weight: 700;
 }
 .hero-p{
+    color: #9C9C9C;
+    font-size: 1.5rem;
     
 }
-.span{
-    color:#ee0000;
-}
+
 .hero-container{
+    background-color: #000000;
     display: flex;
-    margin: 4rem;
+    align-items: center;
+    padding: 4rem 11rem;
     justify-content: space-between;
 }
+.hero-button{
+    background-color: #FFBB00;
+    font-size: 1.2rem;
+    display: flex;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+
+}
+.hero-button:hover{transition: 0.2s; 
+    background-color: #a66f00;
+    cursor: pointer;}
 .imag-container{
     width: 40rem;
     height: 50rem;
+    margin-bottom: -10rem;
+}
+.hero-escolha{
+    background-color: #ffff;
 }

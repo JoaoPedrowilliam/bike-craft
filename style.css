@@ -73,5 +73,53 @@
     margin-bottom: -10rem;
 }
 .hero-escolha{
-    background-color: #ffff;
+    display: grid;
+    grid-template-columns: 3;
+    
+}
+.bicicleta-lista{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 60px 10.5rem 7.5rem 10.5rem;
+    list-style: none;
+     
+}
+
+.bicicleta-lista li{
+    text-align: center;
+}
+
+.bicicleta-lista a{
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.bicicleta-lista img{
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.bicicleta-lista h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.bicicleta-lista span{
+    font-size: 1.2rem;
+    color: #FFBB00;
+    font-weight: 600;
+}
+.contanier-h2x2{
+    font: 600 4rem / 1.125 "Poppins", sans-serif;
+    padding-top: 6.87rem;
+    margin-left: 15rem;
+    box-sizing: border-box; 
+}
+.bicicleta-lista li:nth-child(3) {
+  grid-column: 3;
 }
